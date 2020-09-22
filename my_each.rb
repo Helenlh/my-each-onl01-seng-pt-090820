@@ -3,6 +3,7 @@ def my_each (words)
   # code here
   i+0 
   if block_given?
+    i=0 
     while i < words.length 
     yield words[i]
     times_called = N
