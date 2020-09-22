@@ -13,6 +13,8 @@ else
 end
 end 
 
-my_each([
+my_each([hi', 'hello', 'bye', 'goodbye']) do |name|
+end
+
   
   
