@@ -1,7 +1,8 @@
 def my_each (words)
   # put argument(s) here
   # code here
-  if block_given?
+  #if block_given?
+  if words = []
     i=0 
     while i < words.length 
     yield words[i]
@@ -9,7 +10,7 @@ def my_each (words)
     end 
   end 
   words 
-   "Hey! No block was given!"
+   
   end
 
 
