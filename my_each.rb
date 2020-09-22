@@ -1,11 +1,11 @@
-def my_each (words )
+def my_each (words)
   # put argument(s) here
   # code here
   if block_given?
     i=0 
     while i < words.length 
     yield words[i]
-    i=i+l 
+    i = +=1 
     end 
   end 
   array
