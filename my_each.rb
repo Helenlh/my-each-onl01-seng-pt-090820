@@ -16,7 +16,7 @@ def my_each (words)
 
 
 my_each(["arel", "jon", "logan", "spencer"]) do |name|
-  
+  puts word 
 end
 
   
