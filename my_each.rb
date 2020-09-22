@@ -13,6 +13,8 @@ def my_each (words)
   "Hey! No block was given!"
   end
 
+
+
 my_each(['hi', 'hello', 'bye', 'goodbye']) do |name|
 end
 
