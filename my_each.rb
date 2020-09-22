@@ -14,7 +14,7 @@ def my_each (words)
 
 
 
-my_each(['hi', 'hello', 'bye', 'goodbye']) do |name|
+my_each(["arel", "jon", "logan", "spencer"]) do |name|
 end
 
   
