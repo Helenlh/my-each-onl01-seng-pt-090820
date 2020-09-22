@@ -11,7 +11,7 @@ def my_each (words)
     end 
   end 
   words 
-   "This block should not run!"
+   words.to_a 
   end
 
 
