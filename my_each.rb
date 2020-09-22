@@ -6,6 +6,7 @@ def my_each (words)
     i=0 
     while i < words.length 
     yield words[i]
+    times_called = N
     i = i+1  
     end 
   end 
@@ -16,8 +17,13 @@ def my_each (words)
 
 
 my_each(["arel", "jon", "logan", "spencer"]) do |name|
-  
-   word 
+   N = l 
+   name
+   N +=1 
+ end 
+ 
+   
+   
 
 end
   
