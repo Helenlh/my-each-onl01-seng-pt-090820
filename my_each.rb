@@ -10,7 +10,7 @@ def my_each (words)
   end 
   array
   else 
-  "Hey! No block was given!"
+   "Hey! No block was given!"
   end
 
 
