@@ -13,7 +13,7 @@ else
 end
 end 
 
-my_each([hi', 'hello', 'bye', 'goodbye']) do |name|
+my_each(['hi', 'hello', 'bye', 'goodbye']) do |name|
 end
 
   
