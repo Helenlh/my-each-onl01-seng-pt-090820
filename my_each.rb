@@ -9,9 +9,9 @@ def my_each (words)
     end 
   end 
   array
-else 
+  else 
   "Hey! No block was given!"
-end
+  end
 
 my_each(['hi', 'hello', 'bye', 'goodbye']) do |name|
 end
