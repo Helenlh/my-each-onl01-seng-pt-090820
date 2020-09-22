@@ -1,8 +1,8 @@
 def my_each (words)
   # put argument(s) here
   # code here
+  i+0 
   if block_given?
-    i=0 
     while i < words.length 
     yield words[i]
     times_called = N
@@ -17,8 +17,7 @@ def my_each (words)
 
 my_each(["arel", "jon", "logan", "spencer"]) do |name|
   name
-  
-   N = name.length 
+  N = name.length 
    words = names.to_a 
  end 
 
