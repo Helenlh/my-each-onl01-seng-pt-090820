@@ -10,12 +10,13 @@ def my_each (words)
     end 
   end 
   words 
-   
+   "This block should not run!"
   end
 
 
 
 my_each(["arel", "jon", "logan", "spencer"]) do |name|
+  
 end
 
   
