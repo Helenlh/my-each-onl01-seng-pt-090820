@@ -11,4 +11,3 @@ def my_each (words )
 else 
   puts "Hey! No block was given!"
 end
-
