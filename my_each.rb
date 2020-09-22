@@ -11,7 +11,7 @@ def my_each (words)
     end 
   end 
   words 
-   name.to_a 
+   words.to_a 
   end
 
 
