@@ -19,5 +19,6 @@ my_each(["arel", "jon", "logan", "spencer"]) do |name|
   name
    "name".to_a()
    N = name.length 
+   
  end 
 
