@@ -2,9 +2,9 @@ def my_each (words )
   # put argument(s) here
   # code here
   if block_given?
-    i=l 
-    while i < array.length 
-    yield array
+    i=0 
+    while i < words.length 
+    yield words[i]
     i=i+l 
   end 
   array
@@ -13,4 +13,6 @@ else
 end
 end 
 
-
+my_each([
+  
+  
