@@ -10,14 +10,14 @@ def my_each (words)
     end 
   end 
   words 
-   words.to_a 
+   
   end 
 
 
 
 my_each(["arel", "jon", "logan", "spencer"]) do |name|
   name
-   "name".to_a()
+  
    N = name.length 
    words = names.to_a 
  end 
