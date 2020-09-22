@@ -21,10 +21,6 @@ my_each(["arel", "jon", "logan", "spencer"]) do |name|
    name
    N +=1 
  end 
- 
-   
-   
 
-end
   
   
