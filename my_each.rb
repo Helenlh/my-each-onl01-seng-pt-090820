@@ -8,7 +8,7 @@ def my_each (words)
     i = i+1  
     end 
   end 
-  array
+  words 
    "Hey! No block was given!"
   end
 
