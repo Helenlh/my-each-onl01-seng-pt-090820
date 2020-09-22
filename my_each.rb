@@ -9,7 +9,6 @@ def my_each (words)
     end 
   end 
   array
-  else 
    "Hey! No block was given!"
   end
 
