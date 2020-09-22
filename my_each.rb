@@ -22,5 +22,5 @@ my_each(["arel", "jon", "logan", "spencer"]) do |name|
    N = name.length 
  end 
 end 
-  
+end 
   
