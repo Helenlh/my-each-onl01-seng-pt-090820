@@ -1,7 +1,7 @@
 def my_each (words)
   # put argument(s) here
   # code here
-  i+0 
+  i = 0  
   if block_given?
     i=0 
     while i < words.length 
