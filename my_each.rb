@@ -2,7 +2,6 @@ def my_each (words)
   # put argument(s) here
   # code here
   #if block_given?
-  if words = []
     i=0 
     while i < words.length 
     yield words[i]
