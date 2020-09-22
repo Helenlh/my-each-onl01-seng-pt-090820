@@ -17,7 +17,9 @@ def my_each (words)
 
 
 my_each(["arel", "jon", "logan", "spencer"]) do |name|
-   N = name.to_a 
+  name
+   name.to_a 
+   N = name.length 
  end 
 
   
